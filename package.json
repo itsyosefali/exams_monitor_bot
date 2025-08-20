@@ -1,0 +1,25 @@
+{
+  "name": "telegram-academic-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for managing academic deadlines and exams",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "setup": "node src/setup.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "@supabase/supabase-js": "^2.38.4",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["telegram", "bot", "academic", "deadlines", "exams"],
+  "author": "Your Name",
+  "license": "MIT"
+}
